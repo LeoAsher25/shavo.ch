@@ -10,7 +10,8 @@ button { font:inherit; }
 .shell { width:min(1184px, calc(100% - 48px)); margin:0 auto; }
 .site-header { position:absolute; z-index:5; top:0; left:0; width:100%; }
 .nav { height:88px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid rgba(17,21,38,.12); }
-.wordmark { font:700 27px/1 'Space Grotesk',sans-serif; letter-spacing:-1.7px; }
+.wordmark { display:inline-flex; align-items:center; gap:8px; font:700 27px/1 'Space Grotesk',sans-serif; letter-spacing:-1.7px; }
+.brand-icon { width:28px; height:28px; object-fit:contain; }
 .wordmark-dot { color:#5b51e8; }
 .desktop-nav { display:flex; gap:31px; margin-left:100px; }
 .desktop-nav a,.nav-contact,.footer a { font-size:13px; font-weight:500; transition:opacity .2s ease; }

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const links = [
@@ -16,6 +17,7 @@ export function Navbar() {
     <header className="site-header">
       <nav className="nav shell" aria-label="Main navigation">
         <a className="wordmark" href="#top" aria-label="Shavo home">
+          <Image className="brand-icon" src="/images/logo.png" alt="" width={32} height={32} priority />
           shavo<span className="wordmark-dot">.</span>
         </a>
         <div className="desktop-nav">
