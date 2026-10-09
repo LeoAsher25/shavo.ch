@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Shavo AI - Intelligence made useful.",
+  title: "Dubly.cc - Intelligence made useful.",
   description:
-    "Shavo builds thoughtful AI tools that help people learn faster, create better, and work with more ease.",
+    "Dubly.cc builds thoughtful AI tools that help people learn faster, create better, and work with more ease.",
   icons: {
     icon: "/favicon.ico",
   },

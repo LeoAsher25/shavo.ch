@@ -16,16 +16,16 @@ export function Navbar() {
   return (
     <header className="site-header">
       <nav className="nav shell" aria-label="Main navigation">
-        <a className="wordmark" href="#top" aria-label="Shavo home">
+        <a className="wordmark" href="#top" aria-label="Dubly.cc home">
           <Image className="brand-icon" src="/images/logo.png" alt="" width={32} height={32} priority />
-          shavo<span className="wordmark-dot">.</span>
+          dubly<span className="wordmark-dot">.cc</span>
         </a>
         <div className="desktop-nav">
           {links.map(([label, href]) => (
             <a href={href} key={href}>{label}</a>
           ))}
         </div>
-        <a className="nav-contact" href="mailto:hello@shavo.ch">Start a conversation <Arrow /></a>
+        <a className="nav-contact" href="mailto:hello@dubly.cc">Start a conversation <Arrow /></a>
         <button
           className="menu-button"
           type="button"
@@ -41,7 +41,7 @@ export function Navbar() {
           {links.map(([label, href]) => (
             <a href={href} key={href} onClick={() => setIsOpen(false)}>{label}</a>
           ))}
-          <a href="mailto:hello@shavo.ch" onClick={() => setIsOpen(false)}>Start a conversation</a>
+          <a href="mailto:hello@dubly.cc" onClick={() => setIsOpen(false)}>Start a conversation</a>
         </div>
       )}
     </header>

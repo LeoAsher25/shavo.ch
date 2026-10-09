@@ -51,10 +51,10 @@ export default function Home() {
       <section className="preview-section" id="vision" aria-labelledby="preview-title">
         <div className="shell">
           <div className="section-heading heading-split">
-            <div><p className="eyebrow light"><span /> Shavo Intelligence</p><h2 id="preview-title">A calmer place<br />to make progress.</h2></div>
+            <div><p className="eyebrow light"><span /> Dubly Intelligence</p><h2 id="preview-title">A calmer place<br />to make progress.</h2></div>
             <p>One intelligent workspace designed to turn the things on your mind into the things you can move forward.</p>
           </div>
-          <div className="workspace" aria-label="Shavo Intelligence concept preview">
+          <div className="workspace" aria-label="Dubly Intelligence concept preview">
             <div className="workspace-top"><span className="concept-pill"><b /> Concept preview</span><span>Thursday, 09 October</span></div>
             <div className="workspace-body">
               <div className="workspace-greeting"><p>Good afternoon</p><h3>Where would you<br />like to begin?</h3></div>
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
               <div className="ambient-circle circle-a" /><div className="ambient-circle circle-b" />
             </div>
-            <p className="concept-note">A visual concept for a future Shavo workspace, not a product demo.</p>
+            <p className="concept-note">A visual concept for a future Dubly workspace, not a product demo.</p>
           </div>
         </div>
       </section>
@@ -93,15 +93,15 @@ export default function Home() {
       <section className="about shell" id="about" aria-labelledby="about-title">
         <p className="about-number">/ 03</p>
         <div><p className="eyebrow"><span /> Our point of view</p><h2 id="about-title">The future should<br />feel <em>simpler.</em></h2></div>
-        <div className="about-copy"><p>We&apos;re building toward a future where powerful technology feels natural, accessible, and genuinely useful. No noise, no novelty for novelty&apos;s sake — just better tools for real life.</p><a className="text-link" href="#contact">Meet the thinking behind Shavo <Arrow /></a></div>
+        <div className="about-copy"><p>We&apos;re building toward a future where powerful technology feels natural, accessible, and genuinely useful. No noise, no novelty for novelty&apos;s sake — just better tools for real life.</p><a className="text-link" href="#contact">Meet the thinking behind Dubly <Arrow /></a></div>
       </section>
 
       <section className="contact" id="contact" aria-labelledby="contact-title">
         <div className="contact-glow" />
-        <div className="shell contact-inner"><p className="eyebrow light"><span /> Start a conversation</p><h2 id="contact-title">Have a thoughtful<br />idea in mind?</h2><p>We&apos;d love to hear from people who care about making technology more useful.</p><a className="button button-light" href="mailto:hello@shavo.ch">hello@shavo.ch <Arrow /></a></div>
+        <div className="shell contact-inner"><p className="eyebrow light"><span /> Start a conversation</p><h2 id="contact-title">Have a thoughtful<br />idea in mind?</h2><p>We&apos;d love to hear from people who care about making technology more useful.</p><a className="button button-light" href="mailto:hello@dubly.cc">hello@dubly.cc <Arrow /></a></div>
       </section>
 
-      <footer className="footer shell"><a className="wordmark" href="#top">shavo<span className="wordmark-dot">.</span></a><p>Intelligence made useful.</p><div><span>© 2026 Shavo</span><a href="#contact">Contact</a><a href="#">Privacy</a></div></footer>
+      <footer className="footer shell"><a className="wordmark" href="#top">dubly<span className="wordmark-dot">.cc</span></a><p>Intelligence made useful.</p><div><span>© 2026 Dubly.cc</span><a href="#contact">Contact</a><a href="#">Privacy</a></div></footer>
     </main>
   );
 }
